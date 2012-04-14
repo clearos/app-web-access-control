@@ -1,7 +1,7 @@
 
 Name: app-web-access-control
 Epoch: 1
-Version: 1.0.10
+Version: 1.1.0
 Release: 1%{dist}
 Summary: Web Access Control
 License: GPLv3
@@ -16,7 +16,7 @@ Requires: app-web-proxy
 Time-based Access Control allows an administer to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.
 
 %package core
-Summary: Web Access Control - APIs and install
+Summary: Web Access Control - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Requires: app-base-core
