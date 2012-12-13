@@ -40,3 +40,7 @@ $app['core_requires'] = array(
 $app['requires'] = array(
     'app-web-proxy'
 );
+
+$app['delete_dependency'] = array(
+    'app-web-access-control-core'
+);
