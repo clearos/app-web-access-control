@@ -150,7 +150,7 @@ class Time extends ClearOS_Controller
      * Add or edit a time definition
      *
      * @param string $form_type form type
-     * @param string $name name of time definition
+     * @param string $name      name of time definition
      *
      * @return view
      */

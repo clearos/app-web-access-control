@@ -1,7 +1,7 @@
 
 Name: app-web-access-control
 Epoch: 1
-Version: 1.1.0
+Version: 1.4.15
 Release: 1%{dist}
 Summary: Web Access Control
 License: GPLv3
@@ -13,7 +13,7 @@ Requires: app-base
 Requires: app-web-proxy
 
 %description
-Time-based Access Control allows an administer to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.
+Web Access Control allows an administrator to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.
 
 %package core
 Summary: Web Access Control - Core
@@ -23,7 +23,7 @@ Requires: app-base-core
 Requires: app-web-proxy-core
 
 %description core
-Time-based Access Control allows an administer to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.
+Web Access Control allows an administrator to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.
 
 This package provides the core API and libraries.
 

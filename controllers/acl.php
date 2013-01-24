@@ -170,7 +170,7 @@ class ACL extends ClearOS_Controller
      * Command add/edit view.
      *
      * @param string $form_type form type
-     * @param string $name ACL name
+     * @param string $name      ACL name
      *
      * @return view
      */
