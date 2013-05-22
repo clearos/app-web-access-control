@@ -3,9 +3,9 @@
 /**
  * Web Access Control time summary.
  *
- * @category   Apps
- * @package    Web_Access_Control
- * @subpackage Views
+ * @category   apps
+ * @package    web-access-control
+ * @subpackage views
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2011 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later

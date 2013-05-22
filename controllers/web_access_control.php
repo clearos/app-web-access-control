@@ -3,9 +3,9 @@
 /**
  * Web access control controller.
  *
- * @category   Apps
- * @package    Web_Access_Control
- * @subpackage Controllers
+ * @category   apps
+ * @package    web-access-control
+ * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2011 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
@@ -42,9 +42,9 @@ use \clearos\apps\web_proxy\Squid as Squid;
 /**
  * Web Access Control controller.
  *
- * @category   Apps
- * @package    Web_Access_Control
- * @subpackage Controllers
+ * @category   apps
+ * @package    web-access-control
+ * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2011 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later

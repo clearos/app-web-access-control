@@ -3,9 +3,9 @@
 /**
  * Javascript helper for Web Access Control.
  *
- * @category   Apps
- * @package    Web_Access_Control
- * @subpackage Javascript
+ * @category   apps
+ * @package    web-access-control
+ * @subpackage javascript
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2011 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
