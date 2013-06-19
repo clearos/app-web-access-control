@@ -268,10 +268,10 @@ class ACL extends ClearOS_Controller
                     $data['ident_group'] = $acl['groups'];
                 } else if ($acl['ips']) {
                     $data['ident'] = 'src';
-                    $data['ident_ip'] = $acl['ips'];
+                    $data['ident_ip'] = preg_replace('/ /', "\n", $acl['ips']);
                 } else if ($acl['macs']) {
                     $data['ident'] = 'arp';
-                    $data['ident_mac'] = $acl['macs'];
+                    $data['ident_mac'] = preg_replace('/ /', "\n", $acl['macs']);
                 }
 
                 break;
