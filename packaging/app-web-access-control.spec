@@ -21,6 +21,7 @@ License: LGPLv3
 Group: ClearOS/Libraries
 Requires: app-base-core
 Requires: app-web-proxy-core
+Requires: app-accounts
 
 %description core
 Web Access Control allows an administrator to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.

@@ -34,7 +34,8 @@ $app['controllers']['time']['title'] = lang('web_access_control_time_definitions
 /////////////////////////////////////////////////////////////////////////////
 
 $app['core_requires'] = array(
-    'app-web-proxy-core'
+    'app-web-proxy-core',
+    'app-accounts'
 );
 
 $app['requires'] = array(
