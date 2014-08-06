@@ -73,8 +73,6 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/web_access_control/packaging
-%exclude /usr/clearos/apps/web_access_control/tests
 %dir /usr/clearos/apps/web_access_control
 /usr/clearos/apps/web_access_control/deploy
 /usr/clearos/apps/web_access_control/language
-/usr/clearos/apps/web_access_control/libraries
