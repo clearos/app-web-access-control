@@ -1,7 +1,7 @@
 
 Name: app-web-access-control
 Epoch: 1
-Version: 2.0.18
+Version: 2.1.6
 Release: 1%{dist}
 Summary: Web Access Control
 License: GPLv3
