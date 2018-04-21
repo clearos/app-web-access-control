@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'web_access_control';
-$app['version'] = '2.1.6';
+$app['version'] = '2.5.0';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -35,11 +35,12 @@ $app['controllers']['time']['title'] = lang('web_access_control_time_definitions
 
 $app['core_requires'] = array(
     'app-web-proxy-core',
-    'app-accounts'
+    'app-accounts-core'
 );
 
 $app['requires'] = array(
-    'app-web-proxy'
+    'app-web-proxy',
+    'app-accounts'
 );
 
 $app['delete_dependency'] = array(

@@ -1,27 +1,30 @@
 
 Name: app-web-access-control
 Epoch: 1
-Version: 2.1.6
+Version: 2.5.0
 Release: 1%{dist}
 Summary: Web Access Control
 License: GPLv3
-Group: ClearOS/Apps
+Group: Applications/Apps
+Packager: ClearFoundation
+Vendor: ClearFoundation
 Source: %{name}-%{version}.tar.gz
 Buildarch: noarch
 Requires: %{name}-core = 1:%{version}-%{release}
 Requires: app-base
 Requires: app-web-proxy
+Requires: app-accounts
 
 %description
 Web Access Control allows an administrator to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.
 
 %package core
-Summary: Web Access Control - Core
+Summary: Web Access Control - API
 License: LGPLv3
-Group: ClearOS/Libraries
+Group: Applications/API
 Requires: app-base-core
 Requires: app-web-proxy-core
-Requires: app-accounts
+Requires: app-accounts-core
 
 %description core
 Web Access Control allows an administrator to enforce time-of-day web access to groups or computers (IP or MAC address) using the web proxy.
@@ -73,6 +76,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/web_access_control/packaging
+%exclude /usr/clearos/apps/web_access_control/unify.json
 %dir /usr/clearos/apps/web_access_control
 /usr/clearos/apps/web_access_control/deploy
 /usr/clearos/apps/web_access_control/language
